@@ -15,7 +15,7 @@ body {
 nav {
     display: flex;
     background-color: #F55A5A;
-    height: 55px;
+    height: 7%;
     justify-content: center;
     align-items: center;
     font-size: 14.4608px;
@@ -35,7 +35,7 @@ nav {
 
 .imgs-container {
     margin: 45px 19px 36px 40px;
-    max-width: 125px;
+    max-width: 23%;
     height: 168px;
 }
 
@@ -92,4 +92,11 @@ nav {
 
 .location-icon {
     color: #F55A5A;
+}
+
+@media (max-width: 650px) {
+    .app-container {
+        width: 75%;
+        margin: auto;
+    }
 }
